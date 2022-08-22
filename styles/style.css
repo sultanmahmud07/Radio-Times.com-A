@@ -38,6 +38,12 @@ h6{
   color: tomato;
   font-size: 60px;
 }
+.top-h{
+  color: gold;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
 .select-btn{
   background-color: rgba(0, 0, 255, 0.812);
   color: white;
@@ -49,7 +55,7 @@ h6{
 
 }
 .select-btn:hover{
-  background-color: blue;
+  background-color: rgba(255, 0, 0, 0.934);
 }
 
 .text-color{
