@@ -68,6 +68,14 @@ h6{
 .ul-designe li{
   padding: 5px;
 }
+.footbal-img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.foot-set{
+  position: relative;
+}
 
 /* .main-s{
   margin-bottom: 200px;
