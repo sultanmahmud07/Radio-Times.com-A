@@ -1,15 +1,19 @@
-const playerName =document.getElementById('players-name');
 
 function playerNameSelected(name){
+  const playerName =document.getElementById('players-name');
   const playernameTitleElement =document.getElementById(name);
   const playerNameTitle =playernameTitleElement.innerText;
   const newLi =document.createElement('li');
   newLi.innerText =playerNameTitle;
-  console.log(newLi)
+  // console.log(newLi)
   playerName.appendChild(newLi);
+  return newLi;
 
 };
-console.log(playerName.appendChild)
+
+// const newDocument =document.getElementById('players-name');
+// const playerNameChiled =newDocument.childElementCount;
+// console.log(playerNameChiled)
 
 // player Number 1 messi
 // =======================
